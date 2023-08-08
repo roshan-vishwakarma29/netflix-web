@@ -19,9 +19,9 @@ const Question = () => {
                         return <div className='content'> <Accordion key={index} {...corentElement} /></div>
                     })
                 }
+                <h5>Ready to watch? Enter your email to create or restart your membership.</h5>
             </section>
-<p>Ready to watch? Enter your email to create or restart your membership.
-</p>
+
         </>
     )
 }
