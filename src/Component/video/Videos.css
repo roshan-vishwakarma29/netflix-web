@@ -1,0 +1,34 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.images_video {
+    background-image: url('../../Assert/images/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png');
+    width: 50%;
+    height: 50vh;
+    margin: 30px 30px 30px 30px;
+    position: relative;
+  
+  
+}
+
+.images_example {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+.video {
+    width: 50%;
+}

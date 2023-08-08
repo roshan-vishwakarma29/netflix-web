@@ -1,0 +1,76 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.footer_parent {
+    background-color: black;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer_child {
+    margin: 0px 170px 0px 170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.list_right,
+.list_left li {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.list_left {
+    color: rgb(179, 179, 179);
+    line-height: 2.5;
+    list-style-type: none;
+}
+
+.list_right {
+    color: rgb(179, 179, 179);
+    line-height: 2.5;
+    padding-top: 50px;
+    list-style-type: none;
+}
+
+.list:hover {
+    cursor: pointer;
+}
+
+.ul_tag {
+    margin-left: -42px;
+}
+
+.Netflix_India {
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 0px 170px 0px 170px;
+    color: rgb(179, 179, 179);
+}
+
+@media screen and (max-width:1080px) {
+    .footer_parent {
+        border-top: 10px solid rgb(35, 35, 35);
+        ;
+    }
+
+    .footer_child {
+        margin: 0px 0px 0px 30px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .footer_child {
+        grid-template-columns: 1fr;
+    }
+
+    .list_right {
+        padding-top: 0px;
+    }
+}

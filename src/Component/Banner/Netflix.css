@@ -1,0 +1,250 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.Netflix_baner_wrapper {
+    background-image: url('../../Assert/images/IN-en-20230710-popsignuptwoweeks-perspective_alpha_website_medium\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    width: 100%;
+    height: 130vh;
+    border-bottom: 10px solid rgb(35,35,35);
+    position: relative;
+    top: 0;
+}
+
+.abselute {
+    position: absolute;
+    background: rgb(0 0 0 / 70%);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 35px;
+
+}
+
+.NETFLIX-head {
+    color: red;
+    font-family: poppins_Medium;
+}
+
+.header-sign {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 75%;
+    margin: auto;
+}
+
+.sign-in {
+    min-height: 2rem;
+    padding: 0.25rem 1rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    font-family: Poppins-Medium;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.dropdown{
+    display: flex;
+}
+.dropdown_Language{
+    padding-right: 30px;
+}
+.Language{
+    background-color: transparent;
+    padding: 5PX 5PX 5PX 5PX ;
+    color: white;
+    border-radius: 5PX;
+}
+.Unlimited_movies {
+    color: white;
+    text-align: center;
+    font-family: Poppins-ExtraBold;
+    font-size: 55px;
+    padding-top: 250px;
+}
+
+.first {
+    color: aliceblue;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.second {
+    color: aliceblue;
+    font-size: 1.20rem;
+    /* font-family: Poppins-medium; */
+    text-align: center;
+}
+
+.e_mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.email {
+    width: 25rem;
+    height: 3rem;
+    border-radius: 5px;
+    /* color: transparent; */
+    border: none;
+    outline: none;
+    padding: 0px 20px 0px 20px;
+}
+
+.button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: rgb(193, 17, 25);
+    /* margin-top: -5px; */
+    margin-left: 0.5rem;
+    margin-bottom: 0;
+    font-family: 'Poppins-Medium';
+}
+
+.button p {
+    margin-top: 0px;
+}
+
+@media screen and (max-width:1080px) {
+    .Netflix_baner_wrapper {
+        height: 65vh;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .eaitdun1 {
+        width: 7rem;
+    }
+
+    .Netflix_baner_wrapper {
+        height: 65vh;
+    }
+
+    .Unlimited_movies {
+        margin-top: -90px;
+        font-size: 2rem;
+    }
+
+    .second {
+        width: 95%;
+        padding-left: 51px;
+    }
+
+    .email {
+        width: 19rem;
+    }
+
+    .button {
+        width: 11rem;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .Netflix_baner_wrapper {
+        height: 70vh;
+    }
+    .Unlimited_movies br {
+        display: none;
+    }
+
+    .Unlimited_movies {
+        font-size: 2rem;
+        padding-left: 45px;
+        padding-right: 45px
+    }
+    .first{
+        font-size: 1.3rem;
+
+    }
+    .second{
+        font-size: 1.125rem;
+        padding-left: 75px;
+    }
+    .email{
+        width: 14rem;
+    }
+    .button{
+        width: 11rem;
+    }
+}
+@media screen and (max-width:572px) {
+    .Netflix_baner_wrapper {
+        height: 120vh;
+    }
+    .Unlimited_movies{
+        font-size: 2rem;
+        padding-top: 130px;
+    }
+    .second{
+        margin-left: -30px;
+        font-size: 1.2rem;
+    }
+    .e_mail{
+        flex-direction: column;
+    }
+    .div{
+        text-align: center;
+    }
+    .email{
+     width: 15rem;
+    }
+    .button_button{
+        text-align: center;
+    }
+    .button{
+        margin-top: 30px;
+    }
+}
+
+
+#float-label {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 350px;
+  }
+  
+  #float-label input {
+    width: 100%;
+    height: 56px;
+    padding: 14px 16px 0 10px;
+    outline: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    /* background: #fff; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+  }
+  
+  #float-label label {
+    font-size: 16px;
+    font-family: "Poppins-Medium";
+    padding: 0 12px;
+    color: #fff;
+    pointer-events: none;
+    position: absolute;
+    transform: translate(0, 15px) scale(1);
+    transform-origin: top left;
+    transition: all 0.2s ease-out;
+  }
+
+  #float-label:focus-within label {
+    transform: translate(0, 10px) scale(0.75);
+  }

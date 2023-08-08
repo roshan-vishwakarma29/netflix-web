@@ -1,0 +1,101 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.Watch {
+    background-color: black;
+    padding: 120px 0px 80px 0px;
+    border-bottom: 10px solid rgb(35,35,35);
+
+
+}
+
+.Watch_child {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 170px 0px 170px;
+
+
+}
+
+.shows {
+    color: rgb(255,255,255);
+    font-size: 2.8rem;
+    line-height: 1.3;
+    font-family: Poppins-ExtraBold;
+}
+
+.Stream {
+    color: rgb(255,255,255);
+    font-size: 1.36rem;
+    font-family: Poppins-Medium;
+
+}
+
+.devicepile {
+    width: 100%;
+    padding-left: 10px;
+}
+
+@media screen and (max-width:1080px) {
+    .Watch {
+        height: 40vh;
+    }
+
+    .Watch_child {
+        margin: 0px 40px 0px 40px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .Watch {
+        height: 40%;
+    }
+
+    .Watch_child {
+        grid-template-columns: 1fr;
+    }
+
+    .shows {
+        text-align: center;
+        font-size: 1.9rem;
+
+    }
+
+    .Stream {
+        text-align: center;
+        font-size: 1rem;
+        padding-top: 10px;
+    }
+
+    .Watch {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .Watch{
+        padding-top: 60px;
+    }
+    .shows{
+        text-align: center;
+        font-size: 1.9rem;
+        line-height: 1.5;
+    }
+    .Watch_child{
+        margin: 0px;
+    }
+    .Stream{
+        text-align: center;
+        font-size: 1.05rem;
+        padding: 0pc 20px;
+        padding-top: 10px;              
+    }
+}

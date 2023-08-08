@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Poppins-Medium ;
+    src: url('./Assert/Fonts/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: Poppins-Bold ;
+    src: url('./Assert/Fonts/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: Poppins-ExtraBold ;
+    src: url('./Assert/Fonts/Poppins-ExtraBold.ttf');
+}

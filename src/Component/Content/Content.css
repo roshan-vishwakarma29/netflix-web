@@ -1,0 +1,144 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.all_content {
+    background-color: black;
+    padding: 120px 0px 80px 0px;
+    height: 90vh;
+    border-bottom: 10px solid rgb(35, 35, 35);
+
+}
+
+.PlayStation_Xbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 170px 0px 170px;
+}
+
+.Enjoy {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-family: Poppins-ExtraBold;
+
+}
+
+.PlayStation {
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    padding-top: 10px;
+    font-family: Poppins-Medium;
+
+}
+
+.tvimage {
+    position: relative;
+    top: 0;
+    width: 90%;
+    margin-bottom: -20px;
+    padding-left: 10px;
+    z-index: 9999999;
+}
+
+.videoss {
+    width: 64%;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.videosss{
+    width: 64%;
+    position: absolute;
+    top: 23px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media screen and (max-width:1080px) {
+    .all_content {
+        height: 40vh;
+    }
+
+    .PlayStation_Xbox {
+        margin: 0px 50px 0px 50px;
+    }
+
+    .PlayStation {
+        font-size: 1.39rem;
+    }
+
+    .tvimage {
+        width: 100%;
+        padding-left: 10px;
+    }
+}
+
+.image-overlap{
+    position: relative;
+    top: 0;
+}
+
+.tv_adjest{
+    text-align: center;
+}
+
+@media screen and (max-width:992px) {
+    .all_content {
+        height: 80vh;
+        padding: 80px 0px 0px 0px;
+    }
+
+    .PlayStation_Xbox {
+        grid-template-columns: 1fr;
+        margin: 0px 30px 0px 30px;
+    }
+
+    .Enjoy {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .PlayStation {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .tv_adjest {
+        text-align: center;
+    }
+
+    .tvimage {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .all_content {
+        height: 75vh;
+    }
+
+    .PlayStation {
+        font-size: 1.03rem;
+    }
+
+    .tvimage {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .all_content {
+        height: 100vh;
+    }
+}
