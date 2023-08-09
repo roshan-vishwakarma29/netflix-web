@@ -21,7 +21,6 @@ const App = () => {
       <Childrens />
       <Question />
       <Footer />
-      {/* <Videos /> */}
     </>
   )
 }
