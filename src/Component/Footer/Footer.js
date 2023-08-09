@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='footer_parent'>
         <div className='footer_child'>
           <div className='list_left'>
-            <ul className='ul_tag'>Questions? Call 000-800-919-1694</ul>
+            <ul className='ul_tag'>Questions? Call <span>000-800-919-1694</span> </ul>
             <li>FAQ</li>
             <li> Account</li>
             <li>Investor Relations</li>
@@ -31,6 +31,12 @@ const Footer = () => {
           </div>
 
         </div>
+        <div className='dropdown_Language'>
+            <select className="Language" id="" >English
+            <option value="">🌐 English</option>
+            <option value="">Hindhi</option>    
+            </select>
+            </div>
         <div className='Netflix_India'>
         Netflix India
         </div>

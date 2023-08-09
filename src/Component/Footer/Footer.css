@@ -54,6 +54,15 @@ html {
     color: rgb(179, 179, 179);
 }
 
+.ul_tag>span {
+    text-decoration: underline;
+}
+
+.dropdown_Language {
+    padding-top: 10px;
+    padding-left: 158px;
+}
+
 @media screen and (max-width:1080px) {
     .footer_parent {
         border-top: 10px solid rgb(35, 35, 35);
@@ -72,5 +81,13 @@ html {
 
     .list_right {
         padding-top: 0px;
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+    .dropdown_Language,    .Netflix_India{
+        margin-left: initial;
+        padding: 20px 0px 0px 30px;
     }
 }
