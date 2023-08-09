@@ -45,8 +45,8 @@ const Netflix = () => {
                 {/* <input  type="email"  className="email"  placeholder='Email adderss' value={email} onChange={(e)=> setemail(e.target.value)}></input> */}
                 <div id="float-label">
                   <input type="email" />
-                  <label htmlFor="email">
-                    E-mail
+                  <label htmlFor="email_2">
+                    Email addresh
                   </label>
                 </div>
               </form>

@@ -19,7 +19,23 @@ const Question = () => {
                         return <div className='content'> <Accordion key={index} {...corentElement} /></div>
                     })
                 }
-                <h5>Ready to watch? Enter your email to create or restart your membership.</h5>
+                <p className='membership'>Ready to watch? Enter your email to create or restart your membership.</p>
+                <div className='e_mail'>
+                    <div className='div'>
+                        <form id="form" action="#">
+                            {/* <input  type="email"  className="email"  placeholder='Email adderss' value={email} onChange={(e)=> setemail(e.target.value)}></input> */}
+                            <div id="float-label">
+                                <input type="email" />
+                                <label htmlFor="email">
+                                    Email addresh
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                    <div className='button_button'>
+                        <button type='submit' className='btn btn-danger button'>Get started </button>
+                    </div>
+                </div>
             </section>
 
         </>
