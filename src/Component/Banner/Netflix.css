@@ -43,6 +43,7 @@ html {
     justify-content: space-between;
     max-width: 75%;
     margin: auto;
+    align-items: center;
 }
 
 .sign-in {
@@ -247,4 +248,19 @@ html {
 
   #float-label:focus-within label {
     transform: translate(0, 10px) scale(0.75);
+  }
+
+  @media screen and (max-width: 640px) {
+    #float-label {
+        min-width: 100%;
+      }
+      .header-sign{
+        max-width: 95%;
+      }
+  }
+
+  @media screen and (max-width: 576px) {
+    .dropdown_Language{
+        display: none;
+    }
   }

@@ -78,8 +78,9 @@ html {
     .main_container {
         padding: 50px 60px 50px 60px;
     }
-    .parent_container{
-        padding: 15px 0px 15px 30px ;
+
+    .parent_container {
+        padding: 15px 0px 15px 30px;
     }
 
     .question {
@@ -93,26 +94,39 @@ html {
     .main_container {
         padding: 40px 50px 50px 50px;
     }
-    .parent_container{
-        padding: 10px 0px 10px 30px ;
+
+    .parent_container {
+        padding: 10px 0px 10px 30px;
     }
-    .question{
+
+    .question {
         font-size: 25px;
     }
+
     .faq_headline {
         font-size: 40px;
     }
 }
 
 @media screen and (max-width:576px) {
-    .membership{
+    .membership {
         font-size: 25px;
-        padding: 40px 20px 0px 20px ;
+        padding: 40px 20px 0px 20px;
     }
-    .question{
+
+    .question {
         font-size: 28px;
     }
-    .answer{
+
+    .answer {
         font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .main_container {
+        padding: 40px 20px 50px 20px;
     }
 }
