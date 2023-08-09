@@ -36,12 +36,43 @@ html {
     font-family: Poppins-ExtraBold;
 
 }
+.overlap_mobile{
+    border: 1px solid gray;
+    border-radius: 20px; 
+}
 
 .watch {
     color: rgb(255,255,255);
     font-size: 1.3rem;
     font-family: Poppins-Medium;
+}
+.mobile_images{
+    position: relative;
+    top: 0;
+}
+.overlap_mobile{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: fit-content;
+    background-color: #000;
+    align-items: center;
+}
+.Things{
+    color: aliceblue;
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: Poppins-Medium;
+    margin-bottom: 0rem;
+}
 
+.Things>span{
+    color: #0071eb;
 }
 
 @media screen and (max-width:1080px) {
@@ -101,4 +132,15 @@ html {
         padding: 0pc 20px;
         padding-top: 10px;
     }
+}
+
+.mobile{
+    position: relative;
+    top: 0;
+}
+
+.overlap_mobile>div:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

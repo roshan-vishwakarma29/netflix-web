@@ -17,7 +17,7 @@ html {
 
 .parent_container {
     background-color: rgb(45, 45, 45);
-    padding: 0px 0px 0px 30px;
+    padding: 30px 0px 30px 30px;
 
 }
 
@@ -47,7 +47,7 @@ html {
 
 .answer {
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .content {
@@ -78,6 +78,9 @@ html {
     .main_container {
         padding: 50px 60px 50px 60px;
     }
+    .parent_container{
+        padding: 15px 0px 15px 30px ;
+    }
 
     .question {
         font-size: 30px;
@@ -88,16 +91,28 @@ html {
 
 @media screen and (max-width:992px) {
     .main_container {
-        padding: 50px 20px 50px 20px;
+        padding: 40px 50px 50px 50px;
     }
-
+    .parent_container{
+        padding: 10px 0px 10px 30px ;
+    }
+    .question{
+        font-size: 25px;
+    }
     .faq_headline {
-        font-size: 38px;
+        font-size: 40px;
     }
 }
 
 @media screen and (max-width:576px) {
     .membership{
-        font-size: 17px;
+        font-size: 25px;
+        padding: 40px 20px 0px 20px ;
+    }
+    .question{
+        font-size: 28px;
+    }
+    .answer{
+        font-size: 15px;
     }
 }
